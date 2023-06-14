@@ -4,7 +4,6 @@ import NavBar from './NavBar';
 import { Route,Switch } from 'react-router-dom'
 import Asset from './Asset';
 import Home from './Home';
-// import crypto from './db.json'
 import Submit from './Submit';
 import { useState,useEffect } from 'react';
 

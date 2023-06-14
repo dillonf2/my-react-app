@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+
 
 function Asset({ assetList, setAssetList }) {
   const handleAssetClick = async (asset) => {
@@ -8,14 +8,14 @@ function Asset({ assetList, setAssetList }) {
     };
 
     await fetch(`http://localhost:3000/crypto/${asset.id}`, {
-      method: 'PUT',
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(updatedAsset),
     });
 
-    setAssetList(assetList.map((a) => (a.id === updatedAsset.id ? updatedAsset : a)));
+    setAssetList(assetList.map((asset) => (asset.id === updatedAsset.id ? updatedAsset : asset)));
     alert('Your vote has been tallied! Thanks for participating!');
   };
 
