@@ -1,0 +1,19 @@
+{
+  "crypto": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "votes": 5
+    },
+    {
+      "id": 2,
+      "name": "Ethereum",
+      "votes": 7
+    },
+    {
+      "id": 3,
+      "name": "XRP",
+      "votes": 3
+    }
+  ]
+}
