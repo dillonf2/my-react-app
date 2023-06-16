@@ -8,7 +8,7 @@ function Asset({ assetList, setAssetList }) {
     };
 
     await fetch(`http://localhost:3000/crypto/${asset.id}`, {
-      method: 'POST',
+      method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
       },
