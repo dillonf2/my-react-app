@@ -3,17 +3,22 @@
     {
       "id": 1,
       "name": "Bitcoin",
-      "votes": 5
+      "votes": 7
     },
     {
       "id": 2,
       "name": "Ethereum",
-      "votes": 7
+      "votes": 8
     },
     {
       "id": 3,
       "name": "XRP",
       "votes": 3
+    },
+    {
+      "id": 4,
+      "name": "Binance Coin",
+      "votes": 1
     }
   ]
 }

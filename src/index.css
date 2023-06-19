@@ -108,5 +108,5 @@ code {
   cursor: pointer;
 }
 .asset-item :hover {
-  cursor: pointer;
+  cursor: pointer; 
 }
